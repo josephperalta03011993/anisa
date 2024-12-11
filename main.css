@@ -79,3 +79,30 @@ body {
     border-radius: 25px;
     border: solid #fff 1px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #img-profile{
+        border-radius: 50%;
+        width: 50vw;
+        height: 50vw;
+    }
+    
+    #fullname {
+        font-family: "Monsieur La Doulaise", cursive;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 2rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        font-size: large;
+    }
+
+    .location {
+        text-align: center;
+        padding: 0;
+    }
+}
