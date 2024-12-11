@@ -1,0 +1,77 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: x-large;
+}
+
+.hero {
+    background-color: #1F4529;
+    color: #fff;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#img-profile{
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+}
+
+#fullname {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5rem;
+    padding: 0;
+    margin: 0;
+}
+
+#bdate, #celebrating-life {
+    font-size: 1rem;
+}
+
+.location {
+    text-align: center;
+    padding: 3% 10%;
+}
+
+.donation {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footer {
+    background-color: #1F4529;
+    color: #fff;
+    padding: 1.3rem;
+    text-align: center;
+    font-size: .8rem;
+}
+
+.btn-primary {
+    background-color: #EED3B1;
+    color: #1F4529;
+    font-size: 1.3rem;
+    padding: .5rem 1rem .5rem 1rem;
+    border-style: none;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #47663B;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: .5rem 1rem .5rem 1rem;
+    border-style: none;
+    border-radius: 25px;
+    border: solid #fff 1px;
+}
