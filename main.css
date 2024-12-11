@@ -46,6 +46,10 @@ body {
     padding: 3% 10%;
 }
 
+.obituary {
+    text-align: center;
+}
+
 .donation {
     text-align: center;
     padding-top: 5%;
@@ -78,6 +82,10 @@ body {
     border-style: none;
     border-radius: 25px;
     border: solid #fff 1px;
+}
+
+.fs-14 {
+    font-size: 14px;
 }
 
 @media only screen and (max-width: 768px) {
